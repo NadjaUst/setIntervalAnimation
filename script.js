@@ -8,7 +8,7 @@ function animation() {
 
     function frame() {
         if (pos === 300) {
-            clearInterval();
+            clearInterval(id);
         } else {
             pos++;
             box.style.top = pos + "px"
